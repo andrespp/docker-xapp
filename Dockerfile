@@ -8,8 +8,5 @@ COPY ./entrypoint.sh /
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["jupyterlab"]
-
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["xcalc"]
-#docker run -it --rm --net=host --env="DISPLAY" -v /tmp/.X11-unix/:/tmp/.X11-unix/:ro guiapp bash
